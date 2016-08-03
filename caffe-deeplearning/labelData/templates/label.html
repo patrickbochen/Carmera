@@ -1,0 +1,121 @@
+<!-- extend from base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Categorizing Images</h1>
+
+  <!-- Checkboxes for labels -->
+  <img id="image" src="{{ image_src }}" width="500" height="300" />
+  <div id="selections">
+    <input type="hidden" id="image_id" value="{{ image_id }}" />
+    <input type="checkbox" name="tag[]" class="tag" value="Safe" /> Safe <br>
+    <input type="checkbox" name="tag[]" class="tag" value="Residential" /> Residential <br>
+    <input type="checkbox" name="tag[]" class="tag" value="Outside Venue" /> Outside Venues <br>
+    <input type="checkbox" name="tag[]" class="tag" value="Tourist" /> Tourist<br>
+    <input type="checkbox" name="tag[]" class="tag" value="Old" /> Old <br>
+    <input type="checkbox" name="tag[]" class="tag" value="Rich" /> Rich <br>
+    <input type="checkbox" name="tag[]" class="tag" value="Construction" /> Construction <br>
+    <input type="checkbox" name="tag[]" class="tag" value="Commercial" /> Commercial <br>
+    <input type="button" value="Submit" id="submit">
+    <input type="button" value="Skip" id="skip">
+  </div>
+
+<!-- jQuery script import-->
+<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+<script>
+
+// document.getElementById("submit").addEventListener('click', function() {
+//   console.log(this)
+// } );
+
+// for (var i = 0, len = document.getElementsByClassName("test").length; i < len; i++) {
+//   var elem = document.getElementsByClassName("test")[i];
+//   elem.addEventListener('click', function() {
+//     console.log(this);
+//   } );
+// }
+
+//Label image based on user input in checkboxes
+$('#submit').on('click', function() {
+  
+  var data = {
+    image_id : $('#image_id').val(),
+    tags     : []
+  };
+  $('.tag').each(function() {
+    if ($(this)[0].checked) {
+      data.tags.push($(this).val());
+    }
+  } );
+
+  $.ajax( {
+    method : 'POST',
+    url : '/add',
+    data : JSON.stringify(data),
+    //contentType: "application/json",
+    complete : function(resp, success) {
+      if (resp.status == 201) {
+        console.log(resp.responseJSON);
+        changeImage(resp.responseJSON.image_id, resp.responseJSON.src);
+      }
+      resetChecks();
+      //console.log(success)
+      //console.log(resp.JSONResponse.code === 201);
+    },
+    contentType: "application/json",
+    dataType : 'json'
+  } );
+  //console.log($(this))
+} );
+
+//Skips the current image (repeated images, bad quality)
+$('#skip').on('click', function() {
+  
+  var data = {
+    image_id : $('#image_id').val(),
+    tags     : []
+  };
+  $('.tag').each(function() {
+    if ($(this)[0].checked) {
+      data.tags.push($(this).val());
+    }
+  } );
+
+  $.ajax( {
+    method : 'POST',
+    url : '/skip',
+    //data : JSON.stringify(data),
+    //contentType: "application/json",
+    complete : function(resp, success) {
+      if (resp.status == 201) {
+        console.log(resp.responseJSON);
+        changeImage(resp.responseJSON.image_id, resp.responseJSON.src);
+      }
+      resetChecks();
+      //console.log(success)
+      //console.log(resp.JSONResponse.code === 201);
+    },
+    //contentType: "application/json",
+    //dataType : 'json'
+  } );
+  //console.log($(this))
+} );
+
+
+//Changes displayed images
+var changeImage = function(image_id, src) {
+  $('#image').attr('src', src)
+  $('#image_id').val(image_id);
+};
+//Resert check marks
+var resetChecks = function() {
+  $('.tag').each(function() {
+    if ($(this)[0].checked) {
+      $(this)[0].checked = false;
+    }
+  } );
+}
+
+
+</script>
+{% endblock %}

@@ -1,0 +1,17 @@
+<!-- Base setup -->
+<html>
+  <head>
+    {% if title %}
+    <title>{{ title }} training set</title>
+    {% else %}
+    <title>Welcome to labeling </title>
+    {% endif %}
+  </head>
+  <body>
+    <div>Labels: <a href="/">Home</a><br>
+      Create: <a href="/label">Create</a>
+    </div>
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>

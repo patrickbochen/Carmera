@@ -1,0 +1,1 @@
+Note: Saved images now have different ids in the database due to the change from staging to production Granola API

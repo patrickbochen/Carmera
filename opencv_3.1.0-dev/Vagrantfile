@@ -1,0 +1,79 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+## http://www.pyimagesearch.com/2015/07/20/install-opencv-3-0-and-python-3-4-on-ubuntu/
+$provisioner = <<SCRIPT
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get -y install build-essential
+sudo apt-get -y install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+sudo apt-get -y install python-dev python-numpy
+sudo apt-get -y install python3 python3-dev python3-numpy
+sudo apt-get -y install libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+
+cd ~
+git clone https://github.com/Itseez/opencv.git
+
+cd ~/opencv
+mkdir build
+cd build
+
+sudo cmake -D CMAKE_BUILD_TYPE=RELEASE \
+    -D INSTALL_C_EXAMPLES=OFF \
+    -D INSTALL_PYTHON_EXAMPLES=OFF \
+    -D WITH_IPP=OFF \
+    -D BUILD_EXAMPLES=OFF ..
+
+make -j2
+sudo make install
+sudo ln -sf /usr/local/lib/python3.4/dist-packages/cv2.cpython-34m.so /usr/local/lib/python3.4/dist-packages/cv2.so
+sudo ln /dev/null /dev/raw1394
+SCRIPT
+
+Vagrant.configure(2) do |config|
+
+    ## We name our VMs so not to collide with Docker "default" machine
+    ## Doing this doesnt really matter if you dont plan on having Docker installed
+    ## Though this summer we may need to install Docker on your machines, so
+    ## for saftey lets name our VMs
+    config.vm.define :OPENCV3_1_0_dev_ENV do |t|
+    end
+
+    config.ssh.username = "vagrant"
+    config.ssh.password = "vagrant"
+
+    config.vm.box      = "ubuntu/trusty64"
+    config.vm.hostname = "opencv3-1-0-dev"
+
+    ## These networks configurations are what ports are forwarded to your
+    ## local machine. i.e. port 80 on VM is accessable via localhost:8888
+    ## note* this is required for your CV project as you arnt making a
+    ## service that needs to be spoken too over ports.
+    #config.vm.network :forwarded_port, guest: 8888, host: 80
+    #config.vm.network :public_network, bridge: "en0: Wi-Fi (AirPort)"
+    config.vm.network "private_network", ip: "192.168.50.2"
+
+    ## This is the folder realtive to Vagrantfile location to VM folder location
+    ## to be synced.
+    ## i.e.
+    ## "." = the folder in which the Vagrantfile is in, you can not go above this
+    ## "/project" = All files in local machines "." dir will be synced to vagrant machines "/project" dir
+
+    #######
+    # CHANGE ME "." prob stay the same, but "/project" can be changed to wherever
+    # youd like your local files to appear on the linux machine.
+    config.vm.synced_folder ".", "/caffe" ## CHANGE ME
+
+    ## Gives the VM resources from your local machine
+    config.vm.provider "virtualbox" do |vb|
+        vb.name   = "opencv3.1.0-dev"
+        vb.gui    = false
+        vb.memory = "16384"
+        vb.cpus   = 2
+    end
+
+    ## A script to run the very first time "vagrant up" is called.
+    config.vm.provision "shell", inline: $provisioner, privileged: true
+
+end

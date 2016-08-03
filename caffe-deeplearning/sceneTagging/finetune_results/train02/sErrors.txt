@@ -1,0 +1,238 @@
+Long,Lat                                                     Error                            Error Message
+-74.016487,40.703423            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.015427,40.705238                             Indecisive qscore                  Skipped this coordinate
+-73.996773,40.705517            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.996124,40.705715            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.996536,40.705791            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997337,40.705791            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.995941,40.706043            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.996719,40.706135            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997124,40.70615             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.996529,40.706451            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997696,40.706467            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997314,40.70647             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997887,40.70681             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997124,40.706814            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.99826,40.706818             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997322,40.707153            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997696,40.707153            Less than 10 images in 150m radius            Not enough data at coordinate
+Long,Lat                                                     Error                            Error Message
+-74.017357,40.708893            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.989456,40.711765            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.00222,40.711777             Less than 10 images in 150m radius            Not enough data at coordinate
+-74.002785,40.712101            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.988708,40.712418            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.988899,40.712746            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.989273,40.712746            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.982697,40.713058            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.983078,40.713058            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.989464,40.713074            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.983269,40.71339             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.988899,40.713398            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.989273,40.713398            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.99678,40.713402             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997154,40.713402            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997902,40.713402            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.998283,40.713402            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.999031,40.713402            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.999405,40.713402            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.99659,40.713726             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997345,40.713726            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.997719,40.713726            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.998466,40.713726            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.99884,40.713726             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.999596,40.713726            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.999969,40.713726            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.999031,40.71405             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.999405,40.71405             Less than 10 images in 150m radius            Not enough data at coordinate
+-74.000153,40.71405             Less than 10 images in 150m radius            Not enough data at coordinate
+-74.000534,40.71405             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.999596,40.714375            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.999969,40.714375            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.000717,40.714375            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.001099,40.714375            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.000153,40.714703            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.000534,40.714703            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.001282,40.714703            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.015907,40.714886            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.000717,40.715027            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.001099,40.715027            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.000534,40.715351            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.000717,40.715675            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.015617,40.715706            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.000534,40.716               Less than 10 images in 150m radius            Not enough data at coordinate
+-74.015343,40.716019            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.015465,40.716373            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.015251,40.716709            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.015327,40.717155            Less than 10 images in 150m radius            Not enough data at coordinate
+Long,Lat                                                     Error                            Error Message
+-74.014992,40.717361            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.014839,40.717655            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.01503,40.717979             Less than 10 images in 150m radius            Not enough data at coordinate
+-74.014763,40.7183              Less than 10 images in 150m radius            Not enough data at coordinate
+-73.9776,40.721191              Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978561,40.721523            Less than 10 images in 150m radius            Not enough data at coordinate
+Long,Lat                                                     Error                            Error Message
+1101900                         Unable to download following image          No JSON object could be decoded
+1101900                   The image disappeared or was never downloaded            coordinate tested on 1 images
+Long,Lat                                                     Error                            Error Message
+-73.974136,40.726353            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.974541,40.726364            Less than 10 images in 150m radius            Not enough data at coordinate
+-74.012856,40.726444            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.973938,40.726669            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.974747,40.726692            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.974159,40.727005            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.974556,40.727013            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.973984,40.727329            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978203,40.728024            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978577,40.728024            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978012,40.728352            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978767,40.728352            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.979141,40.728352            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978203,40.728676            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978577,40.728676            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.979324,40.728676            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.977638,40.729               Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978012,40.729               Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978767,40.729               Less than 10 images in 150m radius            Not enough data at coordinate
+-73.979141,40.729               Less than 10 images in 150m radius            Not enough data at coordinate
+-73.98214,40.729                                 Indecisive qscore                  Skipped this coordinate
+-73.977074,40.729324            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.977448,40.729324            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978203,40.729324            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978577,40.729324            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.977638,40.729649            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978012,40.729649            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978767,40.729652            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.977448,40.729977            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978203,40.729977            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978577,40.729977            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.976509,40.730301            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.977638,40.730301            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978012,40.730301            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.976318,40.730625            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.977448,40.730625            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978203,40.730625            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978577,40.730625            Less than 10 images in 150m radius            Not enough data at coordinate
+Long,Lat                                                     Error                            Error Message
+-73.977638,40.730949            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978012,40.730949            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978767,40.730949            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978203,40.731277            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.978577,40.731277            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.979706,40.731926            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.977638,40.73225             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.979324,40.732574            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.979141,40.732903            Less than 10 images in 150m radius            Not enough data at coordinate
+867876                          Unable to download following image          No JSON object could be decoded
+867876                    The image disappeared or was never downloaded            coordinate tested on 1 images
+Long,Lat                                                     Error                            Error Message
+-74.008087,40.73616             Less than 10 images in 150m radius            Not enough data at coordinate
+Long,Lat                                                     Error                            Error Message
+883453                          Unable to download following image          No JSON object could be decoded
+883453                    The image disappeared or was never downloaded            coordinate tested on 1 images
+881317                          Unable to download following image          No JSON object could be decoded
+881317                    The image disappeared or was never downloaded            coordinate tested on 1 images
+Long,Lat                                                     Error                            Error Message
+1088799                         Unable to download following image                                         
+1088799                   The image disappeared or was never downloaded            coordinate tested on 1 images
+-73.962799,40.743984            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.96283,40.744408             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.963226,40.744476            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.962669,40.744755            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.962357,40.744774            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.96344,40.74482              Less than 10 images in 150m radius            Not enough data at coordinate
+-73.963837,40.744846            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.963264,40.745148            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.962898,40.745152            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.96405,40.745186             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.964439,40.745201            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.963486,40.745502            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.963867,40.74551             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.964645,40.745537            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.964081,40.745853            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.964462,40.745865            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.965225,40.74588             Less than 10 images in 150m radius            Not enough data at coordinate
+146021                          Unable to download following image          No JSON object could be decoded
+146021                    The image disappeared or was never downloaded            coordinate tested on 1 images
+-73.964661,40.746201            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.965042,40.746204            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.965805,40.746216            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.96524,40.746536             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.965614,40.74654             Less than 10 images in 150m radius            Not enough data at coordinate
+461586                          Unable to download following image          No JSON object could be decoded
+54491                           Unable to download following image          No JSON object could be decoded
+461586                    The image disappeared or was never downloaded            coordinate tested on 1 images
+54491                     The image disappeared or was never downloaded            coordinate tested on 2 images
+235921                          Unable to download following image          No JSON object could be decoded
+860885                          Unable to download following image          No JSON object could be decoded
+1066205                         Unable to download following image          No JSON object could be decoded
+235666                          Unable to download following image          No JSON object could be decoded
+235693                          Unable to download following image          No JSON object could be decoded
+363026                          Unable to download following image          No JSON object could be decoded
+235800                          Unable to download following image          No JSON object could be decoded
+655289                          Unable to download following image          No JSON object could be decoded
+235921                    The image disappeared or was never downloaded            coordinate tested on 1 images
+860885                    The image disappeared or was never downloaded            coordinate tested on 2 images
+1066205                   The image disappeared or was never downloaded            coordinate tested on 3 images
+235666                    The image disappeared or was never downloaded            coordinate tested on 4 images
+235693                    The image disappeared or was never downloaded            coordinate tested on 5 images
+363026                    The image disappeared or was never downloaded            coordinate tested on 6 images
+235800                    The image disappeared or was never downloaded            coordinate tested on 7 images
+655289                    The image disappeared or was never downloaded            coordinate tested on 8 images
+363371                          Unable to download following image          No JSON object could be decoded
+408432                          Unable to download following image          No JSON object could be decoded
+408717                          Unable to download following image          No JSON object could be decoded
+363371                    The image disappeared or was never downloaded            coordinate tested on 1 images
+408432                    The image disappeared or was never downloaded            coordinate tested on 2 images
+408717                    The image disappeared or was never downloaded            coordinate tested on 3 images
+233634                          Unable to download following image          No JSON object could be decoded
+233634                    The image disappeared or was never downloaded            coordinate tested on 1 images
+-73.965813,40.746868            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966187,40.746872            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.965622,40.747196            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966377,40.747196            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966751,40.7472              Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966187,40.747524            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.983078,40.747524            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966759,40.747849            Less than 10 images in 150m radius            Not enough data at coordinate
+Long,Lat                                                     Error                            Error Message
+-73.966942,40.748825            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966377,40.749149            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966759,40.749149            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966194,40.749474            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966942,40.749477            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.967316,40.749477            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966377,40.749802            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966759,40.749802            Less than 10 images in 150m radius            Not enough data at coordinate
+541497                          Unable to download following image                                         
+541497                    The image disappeared or was never downloaded            coordinate tested on 1 images
+-73.96582,40.750126             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966194,40.750126            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966942,40.750126            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.965256,40.75045             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.96563,40.75045              Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966377,40.75045             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.965065,40.750774            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.96582,40.750774             Less than 10 images in 150m radius            Not enough data at coordinate
+-73.966194,40.750774            Less than 10 images in 150m radius            Not enough data at coordinate
+Long,Lat                                                     Error                            Error Message
+-73.965256,40.751099            Less than 10 images in 150m radius            Not enough data at coordinate
+-73.96563,40.751099             Less than 10 images in 150m radius            Not enough data at coordinate
+819583                          Unable to download following image                                         
+1151237                         Unable to download following image                                         
+846490                          Unable to download following image                                         
+794485                          Unable to download following image                                         
+130366                          Unable to download following image                                         
+130402                          Unable to download following imLong,Lat                                                     Error                            Error Message
+878078                          Unable to download following image          No JSON object could be decoded
+878078                    The image disappeared or was never downloaded            coordinate tested on 1 images
+1102549                         Unable to download following image          No JSON object could be decoded
+1102549                   The image disappeared or was never downloaded            coordinate tested on 1 images
+1306400                         Unable to download following image                                         
+Long,Lat                                                     Error                            Error Message
+1262283                   Image unable to be analyzed, tested on 1 images Could not load "" 
+Reason: "image file is truncated (6 bytes not processed)"
+Please see documentation at: http://pillow.readthedocs.org/en/latest/installation.html#external-libraries
+-73.996216,40.755325                             Indecisive qscore                  Skipped this coordinate
+Long,Lat                                                     Error                            Error Message

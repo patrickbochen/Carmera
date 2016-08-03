@@ -1,0 +1,19 @@
+Train01
+
+The files in this folder pertain to a network that has been trained on the following tags: safe, residential, outside venue, tourist, old, rich, construction, and commercial. The output of the network is an array of probabilities that the image matches one of the following tags. The order of these probabilities is determined during training, where each distinct tag corresponds to a node in the output layer. There is a file in caffe/data/scene/train01 that lists the tags, whose physical order corresponds to the node position in the output layer.
+
+The deploy.prototxt, train_val.prototxt, and solver.prototxt are files that are necessary for training and testing. They are the files that define the network structure and the solver parameters for training the network.
+
+snapshots_iter_100000.caffemodel saves the weights of the model. This particular model has been trained over 10,000 iterations over a set of roughly 2000 distinct images and their corresponding tags.
+
+streetscore_newyorkcity.csv is verification data for the safety scores of the network, based on the MIT streetscore paper.
+
+safe_val.py is the verification program that tests on the safety scores. It outputs the following files: safe_comparison.txt, safe_errors.txt
+
+safe_comparison.txt contains the coordinate, binary classification of the coordinate using both network and streetscore q-score value, and a boolean that tells if the network and streetscore match.
+
+safe_errors.txt contains the coordinate and any errors that might have occured (relating to Carmera sdk, lack of images, corrupted files, etc) during the attempt to classify an image.
+
+Look at	testim.py for a	simple example of running images through the network.
+
+Note, the testing process was often halted and restarted. Because I was just appending to the file, the header tags will appear randomly in the testing output files. Take this into consideration when trying to parse the data.

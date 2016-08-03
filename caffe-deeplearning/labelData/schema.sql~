@@ -1,0 +1,14 @@
+drop table if exists entries;
+create table entries (
+  id integer primary key autoincrement,
+  image_id integer not null,
+  safe boolean,
+  residential boolean,
+  outside_venue boolean,
+  tourist boolean,
+  age_old boolean,
+  age_modern boolean,
+  poor boolean,
+  rich boolean,
+  construction boolean
+);

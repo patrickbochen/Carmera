@@ -1,0 +1,37 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+
+
+
+Vagrant.configure(2) do |config|
+
+    # We name our VMs so not to collide with Docker "default" machine
+    config.vm.define :CAFFE do |t|
+    end
+
+
+    config.ssh.username = "vagrant"
+    config.ssh.password = "vagrant"
+
+
+    config.vm.box      = "malthejorgensen/caffe-deeplearning"
+    config.vm.hostname = "caffe-deeplearning"
+
+    #config.vm.network "private_network", ip: "192.168.40.2"
+    
+    #config.vm.network "public_network"
+    config.vm.network "public_network", bridge: "en0: Wi-Fi (AirPort)"
+    config.vm.network :forwarded_port, guest: 5000, host: 1234
+
+
+    config.vm.synced_folder ".", "/home/vagrant/caffe/Carmera-SceneDetection"
+
+    config.vm.provider "virtualbox" do |vb|
+        vb.name   = "caffe-deeplearning"
+        vb.gui    = false
+        vb.memory = "8192"
+        vb.cpus   = 2
+    end
+
+end

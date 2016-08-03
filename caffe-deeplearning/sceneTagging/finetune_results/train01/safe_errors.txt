@@ -1,0 +1,665 @@
+Long,Lat                                                     Error
+-74.015427,40.705238                             Indecisive qscore
+Long,Lat                                                     Error
+Long,Lat                                                     Error
+Long,Lat                                                     Error
+Long,Lat                                                     Error
+Long,Lat                                                     Error
+Long,Lat                                                     Error
+Long,Lat                                                     Error
+Long,Lat                                                     Error
+535527                          Unable to download following image
+592826                          Unable to download following image
+586878                          Unable to download following image
+578570                          Unable to download following image
+633461                          Unable to download following image
+956352                          Unable to download following image
+1002636                         Unable to download following image
+890435                          Unable to download following image
+1116891                         Unable to download following image
+1183402                         Unable to download following image
+586312                          Unable to download following image
+592439                          Unable to download following image
+Long,Lat                                                     Error
+Long,Lat                                                     Error
+-73.983269,40.71339             Less than 10 images in 150m radius
+-73.988899,40.713398            Less than 10 images in 150m radius
+-73.989273,40.713398            Less than 10 images in 150m radius
+1057522                         Unable to download following image
+Long,Lat                                                     Error
+-73.99678,40.713402             Less than 10 images in 150m radius
+-73.997154,40.713402            Less than 10 images in 150m radius
+-73.997902,40.713402            Less than 10 images in 150m radius
+-73.998283,40.713402            Less than 10 images in 150m radius
+-73.999031,40.713402            Less than 10 images in 150m radius
+-73.999405,40.713402            Less than 10 images in 150m radius
+-73.99659,40.713726             Less than 10 images in 150m radius
+-73.997345,40.713726            Less than 10 images in 150m radius
+-73.997719,40.713726            Less than 10 images in 150m radius
+-73.998466,40.713726            Less than 10 images in 150m radius
+-73.99884,40.713726             Less than 10 images in 150m radius
+-73.999596,40.713726            Less than 10 images in 150m radius
+-73.999969,40.713726            Less than 10 images in 150m radius
+-73.999031,40.71405             Less than 10 images in 150m radius
+-73.999405,40.71405             Less than 10 images in 150m radius
+-74.000153,40.71405             Less than 10 images in 150m radius
+-74.000534,40.71405             Less than 10 images in 150m radius
+-73.999596,40.714375            Less than 10 images in 150m radius
+-73.999969,40.714375            Less than 10 images in 150m radius
+-74.000717,40.714375            Less than 10 images in 150m radius
+-74.001099,40.714375            Less than 10 images in 150m radius
+Long,Lat                                                     Error
+-74.000153,40.714703            Less than 10 images in 150m radius
+-74.000534,40.714703            Less than 10 images in 150m radius
+-74.001282,40.714703            Less than 10 images in 150m radius
+-74.015907,40.714886            Less than 10 images in 150m radius
+-74.000717,40.715027            Less than 10 images in 150m radius
+-74.001099,40.715027            Less than 10 images in 150m radius
+-74.000534,40.715351            Less than 10 images in 150m radius
+925202                          Unable to download following image
+956820                          Unable to download following image
+551973                          Unable to download following image
+974202                          Unable to download following image
+619763                          Unable to download following image
+548688                          Unable to download following image
+371428                          Unable to download following image
+587604                          Unable to download following image
+854393                          Unable to download following image
+579203                          Unable to download following image
+925202                    The image disappeared or was never downloaded
+956820                    The image disappeared or was never downloaded
+551973                    The image disappeared or was never downloaded
+974202                    The image disappeared or was never downloaded
+619763                    The image disappeared or was never downloaded
+548688                    The image disappeared or was never downloaded
+371428                    The image disappeared or was never downloaded
+587604                    The image disappeared or was never downloaded
+854393                    The image disappeared or was never downloaded
+579203                    The image disappeared or was never downloaded
+-73.982704,40.715675            Less than 10 images in 150m radius
+-73.983078,40.715675            Less than 10 images in 150m radius
+-73.983833,40.715675            Less than 10 images in 150m radius
+-73.984207,40.715675            Less than 10 images in 150m radius
+-73.984955,40.715675            Less than 10 images in 150m radius
+-73.985336,40.715675            Less than 10 images in 150m radius
+-73.986084,40.715675            Less than 10 images in 150m radius
+-73.986458,40.715675            Less than 10 images in 150m radius
+-73.987206,40.715675            Less than 10 images in 150m radius
+-73.987587,40.715675            Less than 10 images in 150m radius
+-73.989464,40.715675            Less than 10 images in 150m radius
+-73.989838,40.715675            Less than 10 images in 150m radius
+-73.990585,40.715675            Less than 10 images in 150m radius
+-73.990959,40.715675            Less than 10 images in 150m radius
+-73.991714,40.715675            Less than 10 images in 150m radius
+-73.992088,40.715675            Less than 10 images in 150m radius
+-73.992836,40.715675            Less than 10 images in 150m radius
+-73.993217,40.715675            Less than 10 images in 150m radius
+-73.993965,40.715675            Less than 10 images in 150m radius
+-73.994339,40.715675            Less than 10 images in 150m radius
+-73.995087,40.715675            Less than 10 images in 150m radius
+-73.995468,40.715675            Less than 10 images in 150m radius
+-73.996216,40.715675            Less than 10 images in 150m radius
+-73.99659,40.715675             Less than 10 images in 150m radius
+-73.997345,40.715675            Less than 10 images in 150m radius
+-73.997719,40.715675            Less than 10 images in 150m radius
+-73.998466,40.715675            Less than 10 images in 150m radius
+-73.99884,40.715675             Less than 10 images in 150m radius
+-73.999596,40.715675            Less than 10 images in 150m radius
+-73.999969,40.715675            Less than 10 images in 150m radius
+-74.000717,40.715675            Less than 10 images in 150m radius
+-74.001099,40.715675            Less than 10 images in 150m radius
+-74.001846,40.715675            Less than 10 images in 150m radius
+-74.00222,40.715675             Less than 10 images in 150m radius
+-74.002968,40.715675            Less than 10 images in 150m radius
+-74.003349,40.715675            Less than 10 images in 150m radius
+-74.004097,40.715675            Less than 10 images in 150m radius
+-74.004471,40.715675            Less than 10 images in 150m radius
+-74.005226,40.715675            Less than 10 images in 150m radius
+-74.0056,40.715675              Less than 10 images in 150m radius
+-74.006348,40.715675            Less than 10 images in 150m radius
+-74.006721,40.715675            Less than 10 images in 150m radius
+-74.007477,40.715675            Less than 10 images in 150m radius
+-74.007851,40.715675            Less than 10 images in 150m radius
+-74.008598,40.715675            Less than 10 images in 150m radius
+-74.00898,40.715675             Less than 10 images in 150m radius
+-74.009727,40.715675            Less than 10 images in 150m radius
+-74.010101,40.715675            Less than 10 images in 150m radius
+-74.010857,40.715675            Less than 10 images in 150m radius
+-74.011238,40.715679            Less than 10 images in 150m radius
+-74.011993,40.715679            Less than 10 images in 150m radius
+-74.014763,40.715679            Less than 10 images in 150m radius
+-74.012375,40.715683            Less than 10 images in 150m radius
+-74.013153,40.715687            Less than 10 images in 150m radius
+-74.014343,40.715687            Less than 10 images in 150m radius
+-74.013542,40.715687            Less than 10 images in 150m radius
+-74.015617,40.715706            Less than 10 images in 150m radius
+-73.976677,40.715908            Less than 10 images in 150m radius
+-73.977509,40.71595             Less than 10 images in 150m radius
+-73.977913,40.715965            Less than 10 images in 150m radius
+-73.978706,40.715977            Less than 10 images in 150m radius
+-73.979095,40.715984            Less than 10 images in 150m radius
+-73.979866,40.715992            Less than 10 images in 150m radius
+-73.980247,40.715996            Less than 10 images in 150m radius
+-73.98101,40.715996             Less than 10 images in 150m radius
+-73.981384,40.716               Less than 10 images in 150m radius
+-74.014946,40.716               Less than 10 images in 150m radius
+-73.98214,40.716                Less than 10 images in 150m radius
+-73.982513,40.716               Less than 10 images in 150m radius
+-73.983269,40.716               Less than 10 images in 150m radius
+-73.983643,40.716               Less than 10 images in 150m radius
+-73.984398,40.716               Less than 10 images in 150m radius
+-73.984772,40.716               Less than 10 images in 150m radius
+-73.985519,40.716               Less than 10 images in 150m radius
+-73.985893,40.716               Less than 10 images in 150m radius
+-73.986649,40.716               Less than 10 images in 150m radius
+-73.987022,40.716               Less than 10 images in 150m radius
+-73.98777,40.716                Less than 10 images in 150m radius
+-73.988144,40.716               Less than 10 images in 150m radius
+-73.988899,40.716               Less than 10 images in 150m radius
+-73.989273,40.716               Less than 10 images in 150m radius
+-73.990021,40.716               Less than 10 images in 150m radius
+-73.990402,40.716               Less than 10 images in 150m radius
+-73.99115,40.716                Less than 10 images in 150m radius
+-73.991524,40.716               Less than 10 images in 150m radius
+-73.992279,40.716               Less than 10 images in 150m radius
+-73.992653,40.716               Less than 10 images in 150m radius
+-73.993401,40.716               Less than 10 images in 150m radius
+-73.99453,40.716                Less than 10 images in 150m radius
+-73.994904,40.716               Less than 10 images in 150m radius
+-73.995651,40.716               Less than 10 images in 150m radius
+-73.996025,40.716               Less than 10 images in 150m radius
+-73.99678,40.716                Less than 10 images in 150m radius
+-73.997154,40.716               Less than 10 images in 150m radius
+-73.997902,40.716               Less than 10 images in 150m radius
+-73.998283,40.716               Less than 10 images in 150m radius
+-73.999031,40.716               Less than 10 images in 150m radius
+-73.999405,40.716               Less than 10 images in 150m radius
+-74.000153,40.716               Less than 10 images in 150m radius
+-74.000534,40.716               Less than 10 images in 150m radius
+-74.001282,40.716               Less than 10 images in 150m radius
+-74.001656,40.716               Less than 10 images in 150m radius
+-74.002411,40.716               Less than 10 images in 150m radius
+-74.002785,40.716               Less than 10 images in 150m radius
+-74.003532,40.716               Less than 10 images in 150m radius
+-74.003906,40.716               Less than 10 images in 150m radius
+-74.004662,40.716               Less than 10 images in 150m radius
+-74.005035,40.716               Less than 10 images in 150m radius
+-74.005783,40.716               Less than 10 images in 150m radius
+-74.006165,40.716               Less than 10 images in 150m radius
+-74.006912,40.716               Less than 10 images in 150m radius
+-74.007286,40.716               Less than 10 images in 150m radius
+-74.008034,40.716               Less than 10 images in 150m radius
+-74.008415,40.716               Less than 10 images in 150m radius
+-74.009163,40.716               Less than 10 images in 150m radius
+-74.009537,40.716               Less than 10 images in 150m radius
+-74.010292,40.716               Less than 10 images in 150m radius
+-74.010666,40.716003            Less than 10 images in 150m radius
+-74.011421,40.716003            Less than 10 images in 150m radius
+-74.011803,40.716003            Less than 10 images in 150m radius
+-74.012573,40.716007            Less than 10 images in 150m radius
+-74.012962,40.716011            Less than 10 images in 150m radius
+-74.013741,40.716015            Less than 10 images in 150m radius
+-74.015343,40.716019            Less than 10 images in 150m radius
+-73.976341,40.716125            Less than 10 images in 150m radius
+-73.97731,40.71627              Less than 10 images in 150m radius
+-73.978119,40.716293            Less than 10 images in 150m radius
+-73.979294,40.716312            Less than 10 images in 150m radius
+-73.979675,40.716316            Less than 10 images in 150m radius
+-73.980438,40.71632             Less than 10 images in 150m radius
+-73.98082,40.716324             Less than 10 images in 150m radius
+-73.981575,40.716324            Less than 10 images in 150m radius
+-73.981956,40.716324            Less than 10 images in 150m radius
+-73.982704,40.716324            Less than 10 images in 150m radius
+-73.983078,40.716328            Less than 10 images in 150m radius
+-73.983833,40.716328            Less than 10 images in 150m radius
+-73.984207,40.716328            Less than 10 images in 150m radius
+-73.984955,40.716328            Less than 10 images in 150m radius
+-73.985336,40.716328            Less than 10 images in 150m radius
+-73.986084,40.716328            Less than 10 images in 150m radius
+-73.986458,40.716328            Less than 10 images in 150m radius
+-73.987206,40.716328            Less than 10 images in 150m radius
+-73.987587,40.716328            Less than 10 images in 150m radius
+-73.988335,40.716328            Less than 10 images in 150m radius
+-73.988708,40.716328            Less than 10 images in 150m radius
+-73.989464,40.716328            Less than 10 images in 150m radius
+-73.989838,40.716328            Less than 10 images in 150m radius
+-73.990585,40.716328            Less than 10 images in 150m radius
+-73.990959,40.716328            Less than 10 images in 150m radius
+-73.991714,40.716328            Less than 10 images in 150m radius
+-73.992088,40.716328            Less than 10 images in 150m radius
+-73.992836,40.716328            Less than 10 images in 150m radius
+-73.993217,40.716328            Less than 10 images in 150m radius
+-73.993965,40.716328            Less than 10 images in 150m radius
+-73.994339,40.716328            Less than 10 images in 150m radius
+-73.995087,40.716328            Less than 10 images in 150m radius
+-73.995468,40.716328            Less than 10 images in 150m radius
+-73.996216,40.716328            Less than 10 images in 150m radius
+-73.99659,40.716328             Less than 10 images in 150m radius
+-73.997345,40.716328            Less than 10 images in 150m radius
+-73.997719,40.716328            Less than 10 images in 150m radius
+-73.998466,40.716328            Less than 10 images in 150m radius
+-73.99884,40.716328             Less than 10 images in 150m radius
+-73.999596,40.716328            Less than 10 images in 150m radius
+-73.999969,40.716328            Less than 10 images in 150m radius
+-74.000717,40.716328            Less than 10 images in 150m radius
+-74.001099,40.716328            Less than 10 images in 150m radius
+-74.001846,40.716328            Less than 10 images in 150m radius
+-74.00222,40.716328             Less than 10 images in 150m radius
+-74.002968,40.716328            Less than 10 images in 150m radius
+-74.003349,40.716328            Less than 10 images in 150m radius
+-74.004097,40.716328            Less than 10 images in 150m radius
+-74.004471,40.716328            Less than 10 images in 150m radius
+-74.005226,40.716328            Less than 10 images in 150m radius
+-74.0056,40.716328              Less than 10 images in 150m radius
+-74.006348,40.716328            Less than 10 images in 150m radius
+-74.006721,40.716328            Less than 10 images in 150m radius
+-74.007477,40.716328            Less than 10 images in 150m radius
+-74.007851,40.716328            Less than 10 images in 150m radius
+-74.008598,40.716328            Less than 10 images in 150m radius
+-74.00898,40.716328             Less than 10 images in 150m radius
+-74.009727,40.716328            Less than 10 images in 150m radius
+-74.010101,40.716328            Less than 10 images in 150m radius
+-74.010857,40.716328            Less than 10 images in 150m radius
+-74.011238,40.716328            Less than 10 images in 150m radius
+-74.012001,40.716331            Less than 10 images in 150m radius
+-74.012383,40.716331            Less than 10 images in 150m radius
+-74.014725,40.716335            Less than 10 images in 150m radius
+-74.014343,40.716335            Less than 10 images in 150m radius
+-74.013161,40.716339            Less than 10 images in 150m radius
+-74.01355,40.716339             Less than 10 images in 150m radius
+-74.015465,40.716373            Less than 10 images in 150m radius
+-73.976395,40.716576            Less than 10 images in 150m radius
+-73.977531,40.716606            Less than 10 images in 150m radius
+-73.977928,40.716618            Less than 10 images in 150m radius
+-73.979874,40.716644            Less than 10 images in 150m radius
+-73.980255,40.716644            Less than 10 images in 150m radius
+-73.98101,40.716648             Less than 10 images in 150m radius
+-73.981392,40.716648            Less than 10 images in 150m radius
+-73.98214,40.716648             Less than 10 images in 150m radius
+-73.982513,40.716648            Less than 10 images in 150m radius
+-73.983269,40.716652            Less than 10 images in 150m radius
+-73.983643,40.716652            Less than 10 images in 150m radius
+-73.984398,40.716652            Less than 10 images in 150m radius
+-73.984772,40.716652            Less than 10 images in 150m radius
+-73.985519,40.716652            Less than 10 images in 150m radius
+-73.985893,40.716652            Less than 10 images in 150m radius
+-73.986649,40.716652            Less than 10 images in 150m radius
+-73.987022,40.716652            Less than 10 images in 150m radius
+-73.98777,40.716652             Less than 10 images in 150m radius
+-73.988144,40.716652            Less than 10 images in 150m radius
+-73.988899,40.716652            Less than 10 images in 150m radius
+-73.989273,40.716652            Less than 10 images in 150m radius
+-73.990021,40.716652            Less than 10 images in 150m radius
+-73.990402,40.716652            Less than 10 images in 150m radius
+-73.99115,40.716652             Less than 10 images in 150m radius
+-73.991524,40.716652            Less than 10 images in 150m radius
+-73.992279,40.716652            Less than 10 images in 150m radius
+-73.992653,40.716652            Less than 10 images in 150m radius
+-73.993401,40.716652            Less than 10 images in 150m radius
+-73.993774,40.716652            Less than 10 images in 150m radius
+-73.99453,40.716652             Less than 10 images in 150m radius
+-73.994904,40.716652            Less than 10 images in 150m radius
+-73.995651,40.716652            Less than 10 images in 150m radius
+-74.015251,40.716709            Less than 10 images in 150m radius
+-74.015327,40.717155            Less than 10 images in 150m radius
+546068                          Unable to download following image
+546068                    The image disappeared or was never downloaded
+-74.014992,40.717361            Less than 10 images in 150m radius
+-74.014839,40.717655            Less than 10 images in 150m radius
+-74.01503,40.717979             Less than 10 images in 150m radius
+-74.014763,40.7183              Less than 10 images in 150m radius
+8122                            Unable to download following image
+8122                      The image disappeared or was never downloaded
+363494                          Unable to download following image
+408330                          Unable to download following image
+363494                    The image disappeared or was never downloaded
+408330                    The image disappeared or was never downloaded
+55202                           Unable to download following image
+55202                     The image disappeared or was never downloaded
+55202                           Unable to download following image
+55033                           Unable to download following image
+55202                     The image disappeared or was never downloaded
+55033                     The image disappeared or was never downloaded
+227791                          Unable to download following image
+227791                    The image disappeared or was never downloaded
+426492                          Unable to download following image
+426492                    The image disappeared or was never downloaded
+646964                          Unable to download following image
+646964                    The image disappeared or was never downloaded
+641356                          Unable to download following image
+1111363                         Unable to download following image
+92887                           Unable to download following image
+644747                          Unable to download following image
+1103300                         Unable to download following image
+641356                    The image disappeared or was never downloaded
+1111363                   The image disappeared or was never downloaded
+92887                     The image disappeared or was never downloaded
+644747                    The image disappeared or was never downloaded
+1103300                   The image disappeared or was never downloaded
+853101                          Unable to download following image
+972366                          Unable to download following image
+853101                    The image disappeared or was never downloaded
+972366                    The image disappeared or was never downloaded
+539042                          Unable to download following image
+637869                          Unable to download following image
+539042                    The image disappeared or was never downloaded
+637869                    The image disappeared or was never downloaded
+55108                           Unable to download following image
+55108                     The image disappeared or was never downloaded
+55184                           Unable to download following image
+55108                           Unable to download following image
+55184                     The image disappeared or was never downloaded
+55108                     The image disappeared or was never downloaded
+633010                          Unable to download following image
+633480                          Unable to download following image
+633010                    The image disappeared or was never downloaded
+633480                    The image disappeared or was never downloaded
+633336                          Unable to download following image
+633336                    The image disappeared or was never downloaded
+8100                            Unable to download following image
+8100                      The image disappeared or was never downloaded
+227917                          Unable to download following image
+31513                           Unable to download following image
+1111088                         Unable to download following image
+426805                          Unable to download following image
+925248                          Unable to download following image
+642137                          Unable to download following image
+227917                    The image disappeared or was never downloaded
+31513                     The image disappeared or was never downloaded
+1111088                   The image disappeared or was never downloaded
+426805                    The image disappeared or was never downloaded
+925248                    The image disappeared or was never downloaded
+642137                    The image disappeared or was never downloaded
+642177                          Unable to download following image
+642177                    The image disappeared or was never downloaded
+90384                           Unable to download following image
+1107274                         Unable to download following image
+644575                          Unable to download following image
+90384                     The image disappeared or was never downloaded
+1107274                   The image disappeared or was never downloaded
+644575                    The image disappeared or was never downloaded
+569178                          Unable to download following image
+569178                    The image disappeared or was never downloaded
+641239                          Unable to download following image
+545748                          Unable to download following image
+641239                    The image disappeared or was never downloaded
+545748                    The image disappeared or was never downloaded
+-73.9776,40.721191              Less than 10 images in 150m radius
+408334                          Unable to download following image
+408334                    The image disappeared or was never downloaded
+54905                           Unable to download following image
+55184                           Unable to download following image
+54905                     The image disappeared or was never downloaded
+55184                     The image disappeared or was never downloaded
+633312                          Unable to download following image
+633530                          Unable to download following image
+633312                    The image disappeared or was never downloaded
+633530                    The image disappeared or was never downloaded
+55131                           Unable to download following image
+55131                     The image disappeared or was never downloaded
+171415                          Unable to download following image
+171916                          Unable to download following image
+171766                          Unable to download following image
+171415                    The image disappeared or was never downloaded
+171916                    The image disappeared or was never downloaded
+171766                    The image disappeared or was never downloaded
+532916                          Unable to download following image
+532916                    The image disappeared or was never downloaded
+Long,Lat                                                     Error
+-73.978561,40.721523            Less than 10 images in 150m radius
+171213                          Unable to download following image
+171213                    The image disappeared or was never downloaded
+Long,Lat                                                     Error
+-73.974136,40.726353            Less than 10 images in 150m radius
+-73.974541,40.726364            Less than 10 images in 150m radius
+-74.012856,40.726444            Less than 10 images in 150m radius
+-73.973938,40.726669            Less than 10 images in 150m radius
+-73.974747,40.726692            Less than 10 images in 150m radius
+-73.974159,40.727005            Less than 10 images in 150m radius
+-73.974556,40.727013            Less than 10 images in 150m radius
+-73.973984,40.727329            Less than 10 images in 150m radius
+-73.978203,40.728024            Less than 10 images in 150m radius
+-73.978577,40.728024            Less than 10 images in 150m radius
+-73.978012,40.728352            Less than 10 images in 150m radius
+-73.978767,40.728352            Less than 10 images in 150m radius
+-73.979141,40.728352            Less than 10 images in 150m radius
+-73.978203,40.728676            Less than 10 images in 150m radius
+-73.978577,40.728676            Less than 10 images in 150m radius
+-73.979324,40.728676            Less than 10 images in 150m radius
+-73.977638,40.729               Less than 10 images in 150m radius
+-73.978012,40.729               Less than 10 images in 150m radius
+-73.978767,40.729               Less than 10 images in 150m radius
+-73.979141,40.729               Less than 10 images in 150m radius
+-73.98214,40.729                                 Indecisive qscore
+-73.977074,40.729324            Less than 10 images in 150m radius
+-73.977448,40.729324            Less than 10 images in 150m radius
+-73.978203,40.729324            Less than 10 images in 150m radius
+-73.978577,40.729324            Less than 10 images in 150m radius
+-73.977638,40.729649            Less than 10 images in 150m radius
+-73.978012,40.729649            Less than 10 images in 150m radius
+-73.978767,40.729652            Less than 10 images in 150m radius
+-73.977448,40.729977            Less than 10 images in 150m radius
+-73.978203,40.729977            Less than 10 images in 150m radius
+-73.978577,40.729977            Less than 10 images in 150m radius
+-73.976509,40.730301            Less than 10 images in 150m radius
+-73.977638,40.730301            Less than 10 images in 150m radius
+-73.978012,40.730301            Less than 10 images in 150m radius
+217091                          Unable to download following image
+217091                    The image disappeared or was never downloaded
+867938                          Unable to download following image
+867938                    The image disappeared or was never downloaded
+132461                          Unable to download following image
+132271                          Unable to download following image
+132461                    The image disappeared or was never downloaded
+132271                    The image disappeared or was never downloaded
+215761                          Unable to download following image
+215882                          Unable to download following image
+81306                           Unable to download following image
+215761                    The image disappeared or was never downloaded
+215882                    The image disappeared or was never downloaded
+81306                     The image disappeared or was never downloaded
+105479                          Unable to download following image
+31228                           Unable to download following image
+544727                          Unable to download following image
+105479                    The image disappeared or was never downloaded
+31228                     The image disappeared or was never downloaded
+544727                    The image disappeared or was never downloaded
+32030                           Unable to download following image
+32030                     The image disappeared or was never downloaded
+625082                          Unable to download following image
+625082                    The image disappeared or was never downloaded
+78806                           Unable to download following image
+78806                     The image disappeared or was never downloaded
+-73.976318,40.730625            Less than 10 images in 150m radius
+-73.977448,40.730625            Less than 10 images in 150m radius
+-73.978203,40.730625            Less than 10 images in 150m radius
+-73.978577,40.730625            Less than 10 images in 150m radius
+171951                          Unable to download following image
+892250                          Unable to download following image
+171951                    The image disappeared or was never downloaded
+892250                    The image disappeared or was never downloaded
+656039                          Unable to download following image
+656039                    The image disappeared or was never downloaded
+5922                            Unable to download following image
+892562                          Unable to download following image
+5922                      The image disappeared or was never downloaded
+892562                    The image disappeared or was never downloaded
+5938                            Unable to download following image
+655822                          Unable to download following image
+5938                      The image disappeared or was never downloaded
+655822                    The image disappeared or was never downloaded
+6912                            Unable to download following image
+6752                            Unable to download following image
+173590                          Unable to download following image
+6912                      The image disappeared or was never downloaded
+6752                      The image disappeared or was never downloaded
+173590                    The image disappeared or was never downloaded
+604373                          Unable to download following image
+6411                            Unable to download following image
+604373                    The image disappeared or was never downloaded
+6411                      The image disappeared or was never downloaded
+444574                          Unable to download following image
+444682                          Unable to download following image
+444574                    The image disappeared or was never downloaded
+444682                    The image disappeared or was never downloaded
+444586                          Unable to download following image
+444586                    The image disappeared or was never downloaded
+615906                          Unable to download following image
+615906                    The image disappeared or was never downloaded
+532585                          Unable to download following image
+523126                          Unable to download following image
+532404                          Unable to download following image
+532585                    The image disappeared or was never downloaded
+523126                    The image disappeared or was never downloaded
+532404                    The image disappeared or was never downloaded
+-73.977638,40.730949            Less than 10 images in 150m radius
+-73.978012,40.730949            Less than 10 images in 150m radius
+-73.978767,40.730949            Less than 10 images in 150m radius
+-73.978203,40.731277            Less than 10 images in 150m radius
+-73.978577,40.731277            Less than 10 images in 150m radius
+-73.979706,40.731926            Less than 10 images in 150m radius
+-73.977638,40.73225             Less than 10 images in 150m radius
+-73.979324,40.732574            Less than 10 images in 150m radius
+-73.979141,40.732903            Less than 10 images in 150m radius
+Long,Lat                                                     Error
+-74.008087,40.73616             Less than 10 images in 150m radius
+622451                          Unable to download following image
+622451                    The image disappeared or was never downloaded
+407994                          Unable to download following image
+407994                    The image disappeared or was never downloaded
+1090195                         Unable to download following image
+1090195                   The image disappeared or was never downloaded
+Long,Lat                                                     Error
+759955                          Unable to download following image
+759955                    The image disappeared or was never downloaded
+55820                           Unable to download following image
+55820                     The image disappeared or was never downloaded
+279397                          Unable to download following image
+279397                    The image disappeared or was never downloaded
+Long,Lat                                                     Error
+-73.962799,40.743984            Less than 10 images in 150m radius
+-73.96283,40.744408             Less than 10 images in 150m radius
+-73.963226,40.744476            Less than 10 images in 150m radius
+-73.962669,40.744755            Less than 10 images in 150m radius
+-73.962357,40.744774            Less than 10 images in 150m radius
+-73.96344,40.74482              Less than 10 images in 150m radius
+-73.963837,40.744846            Less than 10 images in 150m radius
+-73.963264,40.745148            Less than 10 images in 150m radius
+-73.962898,40.745152            Less than 10 images in 150m radius
+-73.96405,40.745186             Less than 10 images in 150m radius
+-73.964439,40.745201            Less than 10 images in 150m radius
+-73.963486,40.745502            Less than 10 images in 150m radius
+-73.963867,40.74551             Less than 10 images in 150m radius
+-73.964645,40.745537            Less than 10 images in 150m radius
+-73.964081,40.745853            Less than 10 images in 150m radius
+-73.964462,40.745865            Less than 10 images in 150m radius
+-73.965225,40.74588             Less than 10 images in 150m radius
+-73.964661,40.746201            Less than 10 images in 150m radius
+-73.965042,40.746204            Less than 10 images in 150m radius
+-73.965805,40.746216            Less than 10 images in 150m radius
+-73.96524,40.746536             Less than 10 images in 150m radius
+-73.965614,40.74654             Less than 10 images in 150m radius
+-73.965813,40.746868            Less than 10 images in 150m radius
+-73.966187,40.746872            Less than 10 images in 150m radius
+Long,Lat                                                     Error
+-73.965622,40.747196            Less than 10 images in 150m radius
+-73.966377,40.747196            Less than 10 images in 150m radius
+-73.966751,40.7472              Less than 10 images in 150m radius
+-73.966187,40.747524            Less than 10 images in 150m radius
+-73.983078,40.747524            Less than 10 images in 150m radius
+-73.966759,40.747849            Less than 10 images in 150m radius
+-73.966942,40.748825            Less than 10 images in 150m radius
+-73.966377,40.749149            Less than 10 images in 150m radius
+-73.966759,40.749149            Less than 10 images in 150m radius
+-73.966194,40.749474            Less than 10 images in 150m radius
+-73.966942,40.749477            Less than 10 images in 150m radius
+-73.967316,40.749477            Less than 10 images in 150m radius
+790666                          Unable to download following image
+790666                    The image disappeared or was never downloaded
+-73.966377,40.749802            Less than 10 images in 150m radius
+-73.966759,40.749802            Less than 10 images in 150m radius
+-73.96582,40.750126             Less than 10 images in 150m radius
+-73.966194,40.750126            Less than 10 images in 150m radius
+-73.966942,40.750126            Less than 10 images in 150m radius
+Long,Lat                                                     Error
+-73.965256,40.75045             Less than 10 images in 150m radius
+-73.96563,40.75045              Less than 10 images in 150m radius
+-73.966377,40.75045             Less than 10 images in 150m radius
+-73.965065,40.750774            Less than 10 images in 150m radius
+-73.96582,40.750774             Less than 10 images in 150m radius
+-73.966194,40.750774            Less than 10 images in 150m radius
+-73.965256,40.751099            Less than 10 images in 150m radius
+-73.96563,40.751099             Less than 10 images in 150m radius
+-73.964691,40.751427            Less than 10 images in 150m radius
+-73.965065,40.751427            Less than 10 images in 150m radius
+-73.96582,40.751427             Less than 10 images in 150m radius
+-73.964127,40.751747            Less than 10 images in 150m radius
+-73.9645,40.751751              Less than 10 images in 150m radius
+-73.965256,40.751751            Less than 10 images in 150m radius
+-73.96563,40.751751             Less than 10 images in 150m radius
+-73.963943,40.752075            Less than 10 images in 150m radius
+-73.964691,40.752075            Less than 10 images in 150m radius
+-73.965065,40.752075            Less than 10 images in 150m radius
+-73.964127,40.752399            Less than 10 images in 150m radius
+-73.9645,40.752399              Less than 10 images in 150m radius
+-73.963562,40.752724            Less than 10 images in 150m radius
+-73.963943,40.752724            Less than 10 images in 150m radius
+-73.964691,40.752724            Less than 10 images in 150m radius
+-73.962997,40.753048            Less than 10 images in 150m radius
+-73.963379,40.753048            Less than 10 images in 150m radius
+-73.964127,40.753052            Less than 10 images in 150m radius
+-73.964508,40.753052            Less than 10 images in 150m radius
+795835                          Unable to download following image
+795835                    The image disappeared or was never downloaded
+Long,Lat                                                     Error
+-74.006035,40.753078            Less than 10 images in 150m radius
+-73.962814,40.753372            Less than 10 images in 150m radius
+-73.96357,40.753376             Less than 10 images in 150m radius
+-73.963943,40.753376            Less than 10 images in 150m radius
+-74.00576,40.753391             Less than 10 images in 150m radius
+-73.963005,40.7537              Less than 10 images in 150m radius
+-73.963379,40.7537              Less than 10 images in 150m radius
+-73.964127,40.7537              Less than 10 images in 150m radius
+-74.005882,40.753742            Less than 10 images in 150m radius
+-73.96244,40.754025             Less than 10 images in 150m radius
+-73.962814,40.754025            Less than 10 images in 150m radius
+-73.96357,40.754025             Less than 10 images in 150m radius
+-73.963943,40.754025            Less than 10 images in 150m radius
+759571                          Unable to download following image
+759571                    The image disappeared or was never downloaded
+-74.005333,40.754066            Less than 10 images in 150m radius
+-74.005676,40.754082            Less than 10 images in 150m radius
+-73.961876,40.754349            Less than 10 images in 150m radius
+-73.96225,40.754349             Less than 10 images in 150m radius
+-73.963005,40.754349            Less than 10 images in 150m radius
+-73.963379,40.754349            Less than 10 images in 150m radius
+-74.005753,40.754524            Less than 10 images in 150m radius
+-73.961685,40.754673            Less than 10 images in 150m radius
+-73.96244,40.754677             Less than 10 images in 150m radius
+-73.962814,40.754677            Less than 10 images in 150m radius
+-73.96357,40.754677             Less than 10 images in 150m radius
+Long,Lat                                                     Error
+-73.961121,40.754997            Less than 10 images in 150m radius
+-73.963005,40.755001            Less than 10 images in 150m radius
+-73.996216,40.755325                             Indecisive qscore
+-74.005447,40.755352            Less than 10 images in 150m radius
+-74.004791,40.755657            Less than 10 images in 150m radius
+-74.00518,40.755669             Less than 10 images in 150m radius
+-74.004578,40.755997            Less than 10 images in 150m radius
+-74.004204,40.756001            Less than 10 images in 150m radius
+-74.005302,40.756012            Less than 10 images in 150m radius
+-74.004013,40.756332            Less than 10 images in 150m radius
+-74.004776,40.756363            Less than 10 images in 150m radius
+-74.005112,40.756363            Less than 10 images in 150m radius
+Long,Lat                                                     Error
+-74.004219,40.756672            Less than 10 images in 150m radius
+-74.004616,40.756702            Less than 10 images in 150m radius
+-74.00518,40.756824             Less than 10 images in 150m radius
+-74.003632,40.756981            Less than 10 images in 150m radius
+-74.004028,40.756992            Less than 10 images in 150m radius
+-74.00486,40.757046             Less than 10 images in 150m radius
+193510                          Unable to download following image
+211803                          Unable to download following image
+2691                            Unable to download following image
+193681                          Unable to download following image
+211790                          Unable to download following imLong,Lat                                                     Error

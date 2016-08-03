@@ -1,0 +1,19 @@
+<!-- extend from base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Categorizing Images</h1>
+  <form action="" method="post" name="labels">
+      {{ form.hidden_tag() }}
+      <p> Safe: {{ form.safe }}</p>
+      <p> Residential: {{ form.residential }}</p>
+      <p> Outside Venue: {{ form.outside_venue }}</p>
+      <p> Tourist: {{ form.tourist }}</p>
+      <p> Old: {{ form.old }}</p>
+      <p> Modern: {{ form.modern }}</p>
+      <p> Poor: {{ form.poor }}</p>
+      <p> Rich: {{ form.rich }}</p>
+      <p> Construction: {{ form.construction }}</p>
+      <p><input type="submit" value="Sign In"></p>
+  </form>
+{% endblock %}

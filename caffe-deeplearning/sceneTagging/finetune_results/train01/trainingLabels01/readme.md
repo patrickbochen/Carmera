@@ -1,0 +1,7 @@
+Train01
+
+Contains label_names.txt which is important in relating the network output to an actual label.
+
+Contains train1.txt and test1.txt which are files that contain images paths and their corresponding tags.
+
+Note that the network being trained has never seen the image and tag combination in test.txt. Unfortunately because it was so time consuming labeling images, there were roughly only about 2000 images used during the training process and roughly 200 for testing.

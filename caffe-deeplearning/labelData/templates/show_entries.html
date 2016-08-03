@@ -1,0 +1,12 @@
+<!-- Shows database entries -->
+{% extends "base.html" %}
+{% block content %}
+<ul class=entries>
+
+  {% for entry in entries %}
+    <li>{{ entry.image_id }}: {{ entry.tag }}
+  {% else %}
+    <li><em>Unbelievable.  No entries here so far</em>
+  {% endfor %}
+  </ul>
+{% endblock %}

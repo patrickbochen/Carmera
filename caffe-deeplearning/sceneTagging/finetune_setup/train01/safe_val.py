@@ -1,0 +1,237 @@
+#Validation testing file on 'safe' tag against MIT streetscores
+
+import csv #csv file reader
+import random
+import os
+
+from carmera import Carmera #Carmea module
+#Local machine setup
+cm = Carmera(api_key="ff779518b57c98017d46617830829c91e731c302")
+#cm.url_base = "http://api-staging.carmera.co" Dont need this, only for staging
+im = cm.Image()
+
+#Set up path for caffe                                                                                                    
+import sys
+#This is fucked rn need to fix to download images, i have no idea where the images were put                                   
+caffe_root = '../../../../'  # this file should be run from {caffe_root}/file/path (aka caffe)        
+sys.path.insert(0, caffe_root + 'python')
+
+import numpy as np #to run through network
+import caffe
+# If you get "No module named _caffe", either you have not built pycaffe or you have the wrong path.   
+
+
+#Caffe network setup
+#---------------------------------------------------------------------------------------------
+#Set up caffe
+caffe.set_mode_cpu()
+#caffe.set_device(0)
+
+#Set up model - Change this for different models
+# model_def = caffe_root + 'models/finetune_scene/train01/deploy.prototxt'
+# model_weights = caffe_root + 'models/finetune_scene/train01/snapshots_iter_100000.caffemodel'
+model_def = caffe_root + 'Carmera-SceneDetection/createTrain/finetune/train01/deploy.prototxt'
+model_weights = caffe_root + 'Carmera-SceneDetection/createTrain/finetune/train01/snapshots_iter_100000.caffemodel'
+#Set up network = Do once then dont need to mess with ever again (build network once per run)
+net = caffe.Net(model_def,      # defines the structure of the model                                                            
+   	            model_weights,  # contains the trained weights                                                              
+       	        caffe.TEST)     # use test mode (e.g., don't perform dropout)                                                  
+# load the mean ImageNet image (as distributed with Caffe) for subtraction                                                   
+
+mu = np.load(caffe_root + 'python/caffe/imagenet/ilsvrc_2012_mean.npy')
+mu = mu.mean(1).mean(1)  # average over pixels to obtain the mean (BGR) pixel values   
+
+# create transformer for the input called 'data'                                                                               
+transformer = caffe.io.Transformer({'data': net.blobs['data'].data.shape})
+transformer.set_transpose('data', (2,0,1))  # move image channels to outermost dimension                                        
+transformer.set_mean('data', mu)            # subtract the dataset-mean value in each channel                                  
+transformer.set_raw_scale('data', 255)      # rescale from [0, 1] to [0, 255]                                                   
+transformer.set_channel_swap('data', (2,1,0))  # swap channels from RGB to BGR                                                  
+
+# set the size of the input (we can skip this if we're happy                                                                    
+#  with the default; we can also change it later, e.g., for different batch sizes)                                              
+net.blobs['data'].reshape(50,	# batch size
+						 	3,	# 3-channel (BGR) images
+						 	227, 227)	# image size is 227x227      
+
+
+#File names and locations setup
+#---------------------------------------------------------------------------------------------
+#File setup
+#Name of csv data, which is used to verify data
+verify_file = 'streetscore_newyorkcity.csv'
+#Name of output file from comparison
+results_file = 'safe_comparison.txt'
+errors_file = 'safe_errors.txt'
+format_results = '%-25s %10s %10s %10s\n'
+format_error = '%-25s %40s\n'
+
+fResults = open(results_file, 'a')
+fResults.write(format_results % ('Long,Lat', 'Streetscore', 'Network', 'Match'))
+fErrors = open(errors_file, 'a')
+fErrors.write(format_error % ('Long,Lat', 'Error'))
+
+cutOffImages = 15
+data_location = 'data/scene/images/'
+
+
+#Set up image acquiring and pre processing
+#---------------------------------------------------------------------------------------------
+#Method to access Euclid and find all the images
+def findImages(coordinates, radius):
+	try:
+		res = im.search({
+			'point' : coordinates,
+			'radius' : radius
+			})
+		data = res.json()
+		return data
+	except Exception as e:
+		print(e.code)  ## HTTP status code
+		print(e.error) ## JSON error message
+		#print(e)
+		placeholder = 0
+
+#Need to fix this, just randomly did it
+def chooseImages(coordinates):
+	current_radius = 50
+	large_radius = 150
+	inc_radius = 10
+	data = None
+
+	while data == None or data['properties']['page_size'] < cutOffImages:
+		if current_radius > large_radius:
+			#print ('Not enough images within 150 m at ', coordinates)
+			return None
+		data = findImages(coordinates, current_radius)
+		current_radius += inc_radius
+		#if data stil bad just skip this dat point
+	#randomly choose #cutOffImages images from data
+	#return these images
+	image_ids = []
+	for feature in data['features']:
+		image_ids.append(feature['properties']['id'])
+	random.shuffle(image_ids)
+	return image_ids[:cutOffImages]
+
+#Need a method to download images
+def downloadImages(images):
+	for image_id in images:
+		#file_exists = caffe_root + 'data/scene/images/' + str(image_id) + '.jpg'
+		#if os.path.isfile(file_exists):
+			#print (image_id, 'exists')
+		#	continue
+		#else:
+		try:
+			#print (image_id)
+			res = im.download(image_id, caffe_root + data_location + 
+				'{}.jpg'.format(image_id))
+			sleep(1)
+		except Exception as e:
+			fErrors.write(format_error % 
+				(str(image_id), 'Unable to download following image'))
+			print('Something went wrong with downloading image ' + str(image_id))
+			print(e)
+
+#Clean up images from machine after downloading them
+def cleanImages(images):
+	for image_id in images:
+		file_exists = caffe_root + data_location + '{}.jpg'.format(image_id)
+		if os.path.isfile(file_exists):
+			os.remove(file_exists)
+
+		
+#Running images through network	
+#---------------------------------------------------------------------------------------------
+#Run through network
+def runThroughNetwork(images, cutOffValue):
+	cutoff_network_probability = .5
+
+	safe_cnn = 0
+	num_images = len(images)
+	for image_id in images:
+		file_exists = caffe_root + data_location + '{}.jpg'.format(image_id)
+
+		if (not os.path.isfile(file_exists)):
+			safe_cnn *= (num_images/(num_images-1))
+			num_images -= 1
+			fErrors.write(format_error % 
+				(str(image_id), 'The image disappeared or was never downloaded'))
+			continue
+
+		image = caffe.io.load_image(file_exists)
+		transformed_image = transformer.preprocess('data', image)
+		net.blobs['data'].data[...] = transformed_image
+		output = net.forward()
+		#the output probability vector for the first image in the batch 
+		output_prob = output['prob'][0]  
+		
+		safe_prob = output_prob[0] #Index of safe = 0 (place in label_names.txt)
+		#print (safe_prob)
+		if (safe_prob >= cutOffValue):
+			safe_cnn += (1.00/num_images)
+
+	if safe_cnn < cutoff_network_probability:
+		return 'Unsafe'
+	else:
+		return 'Safe'
+
+
+#Validation testing logic
+#---------------------------------------------------------------------------------------------
+coord_counter = 1297
+matches_counter = 672
+
+with open(verify_file) as csvfile: #Creates csv file object
+	#reader = csv.reader(csvfile) #Creates csvfile reader
+
+	#Skip first some rows in the csv file
+	#for i in range(1234):
+	#	reader.next()
+	#row: [lat, long, q-score]
+	reader = [['40.700909','-74.013504','11.062166']]
+	# 		['40.752728', '-73.971451' ,'26.864557']}
+	#row = ['40.752728', '-73.971451' ,'26.864557']
+	for row in reader:
+
+		coordinates = row[1] + ',' + row[0]
+		print (coordinates)
+		qscore = float(row[2])
+		if qscore < 4.5:
+			hot_safe = 'Unsafe'
+		elif qscore > 5.5:
+			hot_safe = 'Safe'
+		else:
+            print ('Indecisive qscore')
+			fErrors.write(format_error % (coordinates, 'Indecisive qscore'))
+			continue
+
+		image_ids = chooseImages(coordinates)
+		if image_ids == None:
+			print ('Not enough images')
+			fErrors.write(format_error % 
+				(coordinates, 'Less than 10 images in 150m radius'))
+			continue
+
+		coord_counter += 1
+		if coord_counter % 20 == 0:
+			print('Number of coordinates covered: {}'.format(coord_counter))
+			print('Number of matching coordinates: {}'.format(matches_counter))
+			#print ('Coordinate Number {}'.format(coord_counter))
+			fResults.flush()
+			fErrors.flush()
+
+		downloadImages(image_ids)
+		network_safe = runThroughNetwork(image_ids, .01)
+		fResults.write(format_results % 
+			(coordinates, hot_safe, network_safe, (hot_safe==network_safe)))
+
+		if hot_safe==network_safe:
+			matches_counter += 1
+		cleanImages(image_ids)
+
+fResults.close()
+fErrors.close()
+
+print('Number of coordinates covered: {}'.format(coord_counter))
+print('Number of matching coordinates: {}'.format(matches_counter))
