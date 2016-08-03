@@ -1,3 +1,9 @@
 [submodule "Carmera/Euclid"]
 	path = Carmera/Euclid
 	url = git@github.com:carmeraco/Euclid.git
+[submodule "Euclid"]
+	path = Euclid
+	url = git@github.com:carmeraco/Euclid.git
+[submodule "Granola"]
+	path = Granola
+	url = git@github.com:carmeraco/Granola.git
